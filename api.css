@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px; margin: 0 auto; 
+}
+
+button {
+    padding: 8px 16px; margin: 5px; cursor: pointer;
+}
+
+input, select {
+    padding: 8px; margin: 5px 0; width: 100%; box-sizing: border-box;
+}
+
+.action-container { 
+    margin-bottom: 20px; border: 1px solid #ddd; padding: 15px; border-radius: 5px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#result { 
+    background-color: #f5f5f5; padding: 15px; border-radius: 5px; white-space: pre-wrap;
+}
